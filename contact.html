@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form | Contact Me</title>
+    <style>
+        /* Page Styles */
+        body {
+            font-family: 'inter';
+            background-color: #f4f7f6;
+            color: #333333;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+        /* Container content */
+        .container {
+            width: 100%;
+            max-width: 600px;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+            box-sizing: border-box;
+        }
+
+        h1 {
+            color: #2c3e50;
+            font-size: 2.2rem;
+            margin-top: 0;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #3498db;
+            padding-bottom: 10px;
+        }
+
+        /* Form Grouping Layouts */
+        fieldset {
+            border: 1px solid #dcdcdc;
+            border-radius: 6px;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        legend {
+            font-weight: 600;
+            color: #2c3e50;
+            padding: 0 10px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-group-checkbox {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        /* Labels and Inputs */
+        label {
+            font-weight: 600;
+            margin-bottom: 5px;
+            color: #444444;
+            font-size: 0.95rem;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="tel"],
+        select,
+        textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            font-family: inter;
+            font-size: 1rem;
+            box-sizing: border-box;
+            transition: border-color 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        input[type="text"]:focus,
+        input[type="email"]:focus,
+        input[type="tel"]:focus,
+        select:focus,
+        textarea:focus {
+            outline: none;
+            border-color: #3498db;
+            box-shadow: 0 0 5px rgba(52, 152, 219, 0.3);
+        }
+
+        textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        input[type="checkbox"] {
+            width: 18px;
+            height: 18px;
+            cursor: pointer;
+        }
+
+         /* Submit Button Styling */
+        button[type="submit"] {
+            background-color: #3498db;
+            color: #ffffff;
+            border: none;
+            padding: 12px 20px;
+            font-size: 1rem;
+            font-weight: 600;
+            border-radius: 4px;
+            cursor: pointer;
+            width: 100%;
+        }
+        </style>
+</head>
+<body>
+
+    <div class="container">
+        
+
+        <h1>Contact Me</h1>
+
+        <form action="#" method="POST">
+            
+            <!-- Grouping personal contact info using fieldset and legend -->
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <!-- Full Name (text, required) -->
+                <div class="form-group">
+                    <label for="full-name">Full Name *</label>
+                    <input type="text" id="full-name" name="name" placeholder="Full Name" required>
+                </div>
+
+                <!-- Email (email, required, with native validation) -->
+                <div class="form-group">
+                    <label for="email-address">Email Address *</label>
+                    <input type="email" id="email-address" name="email" placeholder="example@email.com" required>
+                </div>
+
+                <!-- Phone (tel, optional) -->
+                <div class="form-group">
+                    <label for="phone-number">Phone Number (Optional)</label>
+                    <input type="tel" id="phone-number" name="phone" placeholder="+254 *** ***">
+                </div>
+            </fieldset>
+
+            <!-- Grouping message specifics -->
+            <fieldset>
+                <legend>Message Details</legend>
+
+                <!-- Subject (dropdown select with 3 options) -->
+                <div class="form-group">
+                    <label for="subject-topic">Subject *</label>
+                    <select id="subject-topic" name="subject" required>
+                        <option value="" disabled selected>Select a topic...</option>
+                        <option value="general">Graphic Design</option>
+                        <option value="project">Ux Design</option>
+                        <option value="feedback">Programming</option>
+                    </select>
+                </div>
+
+                <!-- Message (textarea, required, min 50 characters) -->
+                <div class="form-group">
+                    <label for="user-message">Message * (Minimum 50 characters)</label>
+                    <textarea id="user-message" name="message" minlength="50" placeholder="Type your message here... Must be at least 50 characters long." required></textarea>
+                </div>
+            </fieldset>
+
+            <!-- Newsletter subscription (checkbox) -->
+            <div class="form-group-checkbox">
+                <input type="checkbox" id="newsletter" name="subscribe" value="yes">
+                <label for="newsletter">Subscribe to my monthly newsletter</label>
+            </div>
+
+            <!-- Submit button -->
+            <button type="submit">Submit Message</button>
+            
+        </form>
+    </div>
+
+</body>
+</html>
