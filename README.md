@@ -3,10 +3,10 @@
 ## Author
 - **Name:** Stephen Njoroge Muchemi
 - **GitHub:** [@stephenmuchemi091](https://github.com/stephenmuchemi091-dot)
-- **Date:** Month Day, Year
+- **Date:** october 29, 2026
 
 ## Project Description
-Brief description of what you built and why.
+Building my first website, to have a live personal portfolio page.
 
 ## Technologies Used
 - HTML5
