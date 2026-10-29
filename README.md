@@ -1,4 +1,4 @@
-# Week {Number}: {Project Title}
+# Week {1}: {web foundations}
 
 ## Author
 - **Name:** Your Full Name
