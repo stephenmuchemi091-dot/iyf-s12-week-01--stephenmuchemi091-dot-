@@ -27,7 +27,7 @@ HTML deep dive & accessibility
 ## Challenges Faced
 What problems did you encounter and how did you solve them?
 Linking the features with the HMLT file
-
+I solved it by checking my spelling
 
 
 ## Live Demo (if deployed)
