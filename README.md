@@ -1,8 +1,8 @@
 # Week {1}: {web foundations}
 
 ## Author
-- **Name:** Your Full Name
-- **GitHub:** [@MaisoriKitayama](https://github.com/MaisoriKitayama)
+- **Name:** Stephen Njoroge Muchemi
+- **GitHub:** [@stephenmuchemi091](https://github.com/stephenmuchemi091-dot)
 - **Date:** Month Day, Year
 
 ## Project Description
