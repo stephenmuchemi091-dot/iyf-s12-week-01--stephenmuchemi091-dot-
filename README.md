@@ -1,1 +1,34 @@
-# iyf-s12-week-01--stephenmuchemi091-dot-
+# Week {Number}: {Project Title}
+
+## Author
+- **Name:** Your Full Name
+- **GitHub:** [@MaisoriKitayama](https://github.com/MaisoriKitayama)
+- **Date:** Month Day, Year
+
+## Project Description
+Brief description of what you built and why.
+
+## Technologies Used
+- HTML5
+
+
+
+
+## Features
+- about
+- contact
+- projects
+
+
+## Lessons Learned
+I have learned how the web is designed and environment setup<br>
+HTML deep dive & accessibility
+
+## Challenges Faced
+What problems did you encounter and how did you solve them?
+Linking the features with the HMLT file
+
+
+
+## Live Demo (if deployed)
+[View Live Demo]([https://your-deployed-url.com](https://stephenmuchemi091-dot.github.io/iyf-s12-week-01--stephenmuchemi091-dot-/))
